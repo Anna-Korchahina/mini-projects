@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom-video</title>
+    <link rel="stylesheet" href="./css/video.css">
+</head>
+
+<body>
+
+    <div class="cover">
+        <header class="header">
+            <h1 class="title">Video</h1>
+        </header>
+
+        <main class="main">
+            <div class="wrapper">
+                <video class="custom-video" src="./video/video.mp4" poster="./img/video-bg.jpg" preload='auto'></video>
+                <!-- <video class="custom-video" src="https://youtu.be/wkSzOwfHFMg" poster="./img/video-bg.jpg" preload='auto'></video> -->
+                <div class="controls">
+                    <img class='playPause controls__element' src='./img/svg/play.svg' alt="" style='width:20px'>
+                    <!-- <input class='controls__volume controls__element' type='range' value='100' max='100'
+                        title='Громкость'> -->
+
+                    <div class='controls__video-curr-time controls__element'>00:00</div>
+                    <!-- <progress class='controls__progress-bar controls__element' value='0' max='100'></progress> -->
+                    <input class='controls__progress-bar controls__element' type='range' value='0' max='100'
+                        title='progress'>
+                    <div class='controls__video-duration controls__element'>00:00</div>
+
+                    <img class='controls__volume-img controls__element' src='./img/svg/volume.svg' alt=""
+                        style='width:20px'>
+                    <input class='controls__volume controls__element' type='range' value='100' max='100'
+                        title='Громкость'>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            &copy; 2022 Корчагина
+            Rolling Scopes School
+        </footer>
+    </div>
+
+    <script type="module" src="./js/video.js"></script> 
+
+    <!-- <img class='playPause controls__element' src='./img/svg/camera.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/fb.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/image.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/inst.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/logo.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/mic.svg' alt="" style='width:20px'> -->
+<!-- <img class='playPause controls__element' src='./img/svg/mute.svg' alt="" style='width:20px'> -->
+<!-- <img class='playPause controls__element' src='./img/svg/pause.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/pinterest.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/play-btn.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/play.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/switch-theme.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/tw.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/video.svg' alt="" style='width:20px'>
+<img class='playPause controls__element' src='./img/svg/volume.svg' alt="" style='width:20px'> -->
+</body>
+
+
+</html>
