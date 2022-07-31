@@ -1,0 +1,27 @@
+{
+  "name": "rsschool",
+  "version": "1.0.0",
+  "description": "virtual keyboard",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-Korchagina/RSSchool.git"
+  },
+  "keywords": [
+    "keyboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anna-Korchagina/RSSchool/issues"
+  },
+  "homepage": "https://github.com/Anna-Korchagina/RSSchool#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
