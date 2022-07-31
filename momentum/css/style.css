@@ -1,0 +1,287 @@
+.wrapper {
+  /* background-image: url('https://raw.githubusercontent.com/Anna-Korchahina/stage1-tasks/assets/images/morning/01.jpg'); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+/* ХЕДЕР --> */
+.header {}
+
+/*  <-- ХЕДЕР */
+
+.main {}
+
+.content__wrapper {
+  padding: 5% 5% 5% 5%;
+  /* height: 100%; */
+}
+
+
+
+
+/* КАЛЕНДАРЬ --> */
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white
+}
+
+.time {}
+
+.hours {}
+
+.hours::after,
+.minutes::after {
+  content: ':';
+  padding-left: 5px;
+}
+
+.minutes {}
+
+.seconds {}
+
+.data {
+  margin-bottom: 100px;
+}
+
+.curent__data {
+  color: white;
+  text-transform: capitalize;
+}
+
+/*  <-- КАЛЕНДАРЬ */
+
+
+/* ПРИВЕТСТВИЕ --> */
+.greetings {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 0 auto; */
+  color: white
+}
+
+.content {
+  /* margin: 0 auto; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.content:first-child {
+  justify-content: center;
+}
+
+.content__greeting {
+  width: 50%;
+  /* display: inline-block;
+  width: 50%; */
+}
+
+.content__input {
+  /* width: ; */
+}
+
+.content__input,
+.content__input:active,
+.content__input:hover,
+.content__input:focus,
+.content__input:focus-visible {
+  /* background: ; */
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+/* .content__input, .content__input:active, .content__input:hover, .content__input:focus {
+  outline: none;
+  outline-offset: none;
+} */
+/*  <-- ПРИВЕТСТВИЕ */
+
+
+/* СЛАЙДЕР --> */
+
+.slider-icon {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  opacity: .8;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.slider-icon:hover {
+  opacity: 1;
+}
+
+.slider-icon:active {
+  border: 0;
+  outline: 0;
+  transform: scale(1.1);
+}
+
+.slider-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  cursor: pointer;
+}
+
+.slide-prev {
+  left: 20px;
+  background-image: url("../assets/svg/slider/slider-prev.svg");
+}
+
+.slide-next {
+  right: 20px;
+  background-image: url("../assets/svg/slider/slider-next.svg");
+}
+
+/*  <-- СЛАЙДЕР */
+
+/* ЦИТАТА ДНЯ --> */
+.quote-icon {
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  opacity: .8;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.quote-icon:hover {
+  opacity: 1;
+}
+
+.quote-icon:active {
+  border: 0;
+  outline: 0;
+  transform: scale(1.1);
+}
+
+/* .slider-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+  } */
+
+.quote-icon {
+  /* left: 20px; */
+  background-image: url("../assets/svg/reload.svg");
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.quote-btn {}
+
+.quote-icon {}
+
+.quote__text {
+  color: white
+}
+
+.quote__author {
+  color: white
+}
+
+/*  <-- ЦИТАТА ДНЯ */
+
+/* AUDIOPLAYER --> */
+.playlist {
+  color:white
+}
+
+.playlist__song {
+  list-style-type: none;
+}
+
+.playlist__song::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background:  url('../assets/svg/music/play.svg');
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+}
+.song_active{
+  color:red;
+  text-transform: uppercase;
+}
+.audio__play-prev{
+  /* background-image: url("../assets/svg/music/play-prev.svg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border: none;
+  background-color: none; */
+}
+.audio__play-pause{
+  background-image: url("../assets/svg/music/play.svg");
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  border: none;
+}
+.audio__play-pause.play{
+  background-image: url("../assets/svg/music/pause.svg");
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  border: none;
+}
+/*  <-- AUDIOPLAYER */
+
+/* ФУТЕР --> */
+.footer {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.footer__link {}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.list__item {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px 7px 0px 7px;
+}
+
+.list__link {}
+
+.list__img {
+  width: 70px;
+  height: 50px;
+}
+
+/*  <-- ФУТЕР */

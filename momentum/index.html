@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monumental</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="main">
+            <div class="content__wrapper">
+
+                <div class="music">
+                    <button class="p"><img class="audio__btn audio__play-prev" src="./assets/svg/music/play-prev.svg" alt=""></button>
+                    <button class="p"><img class="audio__btn audio__play-pause" alt=""></button>
+                    <button class="p"> <img class="audio__btn audio__play-next" src="./assets/svg/music/play-next.svg" alt=""></button>
+
+                    <!-- <img class="audio__btn audio__play-prev" src="./assets/svg/music/play-prev.svg" alt="">
+                    <img class="audio__btn audio__play-pause" alt="">
+                    <img class="audio__btn audio__play-next" src="./assets/svg/music/play-next.svg" alt=""> -->
+                    <div class="audio-track">
+                        <div class="currentTime"></div>
+                        <input class="progressBar" type="range" id="progress-bar" value="0">
+                        <div class="durationTime"></div>
+                    </div>
+                    
+                    <div>
+                        <input class="audio__volume" type="range" id="volume" name="volume" min="0" max="1" step="any"
+                            value="1">
+                        <label for="volume">Volume</label>
+                    </div>
+                    <ul class="playlist"></ul>
+                </div>
+
+                <div class="switch">
+                    <button class="slide-prev slider-icon"></button>
+                    <button class="slide-next slider-icon"></button>
+                </div>
+
+                <div class="calendar">
+                    <div class="time">
+                        <span class="hours">00</span>
+                        <span class="minutes">00</span>
+                        <span class="seconds">00</span>
+                    </div>
+                    <div class="data">
+                        <span class="curent__data"></span>
+                    </div>
+                </div>
+
+                <div class="greetings">
+                    <p class="content">
+                        <span class="content__greeting"></span>
+                        <input class="content__input" type="text" placeholder="[Введите имя]">
+                    </p>
+                </div>
+
+                <div class="quote">
+                    <button class="quote-btn quote-icon"></button>
+                    <q class="quote__text">
+                        Цитата
+                    </q>
+                    <cite class="quote__author">Автор</cite>
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="content__wrapper">
+                <ul class="footer__link list">
+                    <li class="list__item">
+                        <a href="https://github.com/Anna-Korchahina" class="list__link" target="_blank">
+                            <img src="./assets/svg/icons8-github-35.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        2022
+                    </li>
+                    <li class="list__item">
+                        <a href="https://rs.school/js/" class="list__link">
+                            <img class="list__img" src="./assets/svg/rs_school_js.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
