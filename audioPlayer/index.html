@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/audioPlayer/css/aplayer.css">
+</head>
+
+<body>
+    <div class="cover">
+        <div class="blur"></div>
+
+        <header class="header">
+        </header>
+
+        <main class="main">
+            <div class="content">
+                <div class="content__card">
+                    <div class="content__block">
+
+                        <div class="content__img-overlay"style="width:350px; height:350px"><img class="content__img" style="width:350px; height:350px"></div>
+                        
+                        <audio class="content__audio" preload="auto"></audio>
+                        <div id="controls">
+                            <div class="top">
+                             
+                                <img class="playPause" src="/audioPlayer/svg/play.png" alt="" style="width:50px">
+                                <div class="content__intro">
+                                    <p class="content__singer"></p>
+                                    <p class="content__track"></p>
+                                </div>
+                                <img class="backward" src="/audioPlayer/svg/backward.png" alt="" style="width:50px">
+                                <img class="forward" src="/audioPlayer/svg/forward.png" alt="" style="width:50px">
+                                <!-- <img class="forward" alt="" style="width:50px"> -->
+                            </div>
+
+                            <div class="audio-track">
+                                <div class="currentTime"></div>
+                                <!-- <input type="range" id="volume" name="volume" min="0" max="11"> -->
+                                <input class="progressBar" type="range" id="progress-bar" value="0">
+                                <!-- <label for="volume"></label> -->
+                                <div class="durationTime"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- <footer class="footer">
+            <div class="container container_flex">
+                <div class="footer__left">
+                    @ 2022 Корчагина
+                </div>
+                <div class="footer__right"></div>
+            </div>
+        </footer> -->
+    </div>
+
+    <script type="module" src="/audioPlayer/js/aplayer.js"></script>
+</body>
+
+</html>
