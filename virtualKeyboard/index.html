@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtual keyboard</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <script src="./js/main.js"></script>
+    <!-- <header class="header">
+        <div class="wrapper">
+            <h1 class="title">Virtual keyboard</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="description">
+                <p class="description__operating-system">developed on the windows</p>
+                <p class="description__hotkeys">press 'shift+alt' to switch language</p>
+            </div>
+            <div class="window">
+                <label for="window__input"></label>
+                <textarea id="window__input" name="textarea"></textarea>
+            </div>
+            <div class="keyboard">
+                <div class="keyboard__link keyboard__level-1">
+                    <div class="keyboard__block"><span class="keyboard__elem">`</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">1</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">2</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">3</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">4</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">5</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">6</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">7</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">8</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">9</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">0</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">-</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">=</span></div>
+                    <div class="keyboard__block keyboard__size-1"><span class="keyboard__elem">bksp</span></div>
+                </div>
+                <div class="keyboard__link keyboard__level-2">
+                    <div class="keyboard__block keyboard__size-1"><span class="keyboard__elem">tab</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">q</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">w</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">e</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">r</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">t</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">y</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">u</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">i</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">o</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">p</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">[</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">]</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">\</span></div>
+                </div>
+                <div class="keyboard__link keyboard__level-3">
+                    <div class="keyboard__block keyboard__size-2"><span class="keyboard__elem">caps</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">a</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">s</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">d</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">f</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">g</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">h</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">j</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">k</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">l</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">;</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">'</span></div>
+                    <div class="keyboard__block keyboard__size-2"><span class="keyboard__elem">enter</span></div> 
+                </div>
+                <div class="keyboard__link keyboard__level-4">
+                    <div class="keyboard__block keyboard__size-3"><span class="keyboard__elem">shift-l</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">z</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">x</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">c</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">v</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">b</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">n</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">m</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">,</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">.</span></div>
+                    <div class="keyboard__block"><span class="keyboard__elem">/</span></div>
+                    <div class="keyboard__block keyboard__size-3"><span class="keyboard__elem">shift-r</span></div>
+                </div>
+                <div class="keyboard__link keyboard__level-5">
+                    <div class="keyboard__block keyboard__size-5"><span class="keyboard__elem">ctrl-l</span></div>
+                    <div class="keyboard__block keyboard__size-6"><span class="keyboard__elem">fn</span></div>
+                    <div class="keyboard__block keyboard__size-6"><span class="keyboard__elem">win</span></div>
+                    <div class="keyboard__block keyboard__size-6"><span class="keyboard__elem">alt-l</span></div>
+                    <div class="keyboard__block keyboard__size-7"><span class="keyboard__elem">space</span></div>
+                    <div class="keyboard__block keyboard__size-6"><span class="keyboard__elem">alt-r</span></div>
+                    <div class="keyboard__block keyboard__size-6"><span class="keyboard__elem">ctrl-r</span></div>
+                    <div class="keyboard__block keyboard__size-4"><span class="keyboard__elem">left</span></div>
+                    <div class="keyboard__block keyboard__size-4"><span class="keyboard__elem">up</span></div>
+                    <div class="keyboard__block keyboard__size-4"><span class="keyboard__elem">rigth</span></div>
+                    <div class="keyboard__block keyboard__size-4"><span class="keyboard__elem">down</span></div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+        </div>
+    </footer> -->
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+body {
+    background: #fcdddb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    color: rgb(6, 61, 6);
+}
+
+.wrapper {
+    /* max-width: 70%; */
+    /* height: 100%; */
+    margin: 0 auto;
+    /* background: olive; */
+    text-align: center;
+}
+
+.title {
+    /* font-family: 'Macondo'; */
+    /* font-style: normal;
+    font-weight: 400;
+    font-size: 20px; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Macondo', cursive; */
+}
+
+.main {}
+
+.description {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    /* font-style: normal;
+    font-weight: 400;
+    font-size: 20px; */
+    width: 800px;
+    margin: 0 auto;
+    /* padding-left: 0px; */
+    color: rgb(6, 61, 6);
+}
+
+.description__operating-system {
+    text-align: end;
+}
+
+.description__hotkeys {
+    text-align: end;
+}
+
+.window {}
+
+textarea#window__input{
+    margin: 0;
+    padding: 0;
+    width: 770px;
+    height: 310px;
+}
+
+
+.keyboard {
+    /* width: 700px; */
+    /* color: white; */
+    white-space: nowrap;
+    width: 830px;
+    /* background: rgb(30, 41, 30); */
+    background: white;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+
+.keyboard__block {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border: 1px solid rgb(47, 47, 47);
+    /* white-space: nowrap */
+    background-color: rgb(24, 23, 23);
+    border-radius: 4px;
+}
+.keyboard__block:hover{
+    background-color: crimson;
+    opacity: 0.4;
+    border: 1px solid rgb(212, 47, 80);
+    box-shadow: 0 15px 20px -15px rgba(236, 226, 232, 0.69);
+    transition-duration: 1s;
+
+    /* box-shadow: 0 0 30px rgba(51, 48, 48, 0.9); */
+}
+/* .keyboard__block:hover{ */
+    /* box-shadow:0 15px 9px rgba(14, 14, 14, 0.12); */
+    /* background-color: crimson;
+    opacity: 1;
+    border: 1px solid rgb(212, 47, 80);
+    box-shadow: 0 15px 20px -15px rgba(236, 226, 232, 0.69);
+    transition-duration: 1s; */
+/* } */
+
+/* .keyboard__block {
+    position: relative;
+    z-index:10;
+    box-shadow: 0 1px 4px rgba(219, 14, 14, 0.33), 0 0 30px rgba(25, 218, 82, 0.12) inset;
+} */
+
+
+
+.keyboard__block:hover>.keyboard__elem{
+    color: black;
+    font-size: 20px;
+}
+
+.keyboard__elem {
+    line-height: 45px;
+    /* line-height: 30px; */
+    /* color: white; */
+    color: rgb(194, 183, 183);
+    /* display: inline-block; */
+    /* padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px; */
+    /* width: 50px; */
+    /* height: 30px; */
+    /* border: 1px solid black; */
+    /* text-align: center;
+    align-items: center; */
+}
+
+.keyboard__size-1 {
+    width: 90px;
+}
+
+.keyboard__size-2 {
+    width: 100px;
+}
+
+.keyboard__size-3 {
+    width: 111px;
+}
+
+.keyboard__size-4 {
+    width: 30px;
+    height: 50px;
+}
+
+.keyboard__size-5 {
+    width: 60px;
+    height: 50px;
+}
+
+.keyboard__size-6 {
+    width: 50px;
+    height: 50px;
+}
+
+.keyboard__size-7 {
+    width: 300px;
+    height: 50px;
+}
+
+.keyboard__link{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 10px;
+}
+
+.keyboard__level-1 {
+    /* margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.keyboard__level-2 {
+    /* margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.keyboard__level-3 {
+    /* margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.keyboard__level-4 {
+    /* margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.keyboard__level-5 {
+    /* margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between; */
+} 
+
+.footer {}
