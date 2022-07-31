@@ -1,0 +1,113 @@
+@media (min-width: 1181px) {
+    .slider__wrapper {
+        max-width: 60vw;
+        max-height: 70vh;
+        margin: auto auto;
+        background-color: #353131;
+        overflow: hidden;
+        border-radius: 5%;
+    }
+
+    .slide__item {
+        width: 60vw;
+        height: 70vh;
+        transition: all .6s ease;
+    }
+
+    .nav {
+        margin-left: 37%;
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1180.99px) {
+    .slider__wrapper {
+        max-width: 60vw;
+        max-height: 70vh;
+        margin: auto auto;
+        background-color: #353131;
+        overflow: hidden;
+        border-radius: 5%;
+    }
+
+    .slide__item {
+        width: 60vw;
+        height: 70vh;
+        transition: all .6s ease;
+    }
+
+    .nav {
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 767px) {
+    .slider__wrapper {
+        max-width: 60vw;
+        max-height: 70vh;
+    }
+
+    .slide__item {
+        width: 60vw;
+    }
+
+    .nav {
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .nav__item {
+        height: 25px;
+        width: 25px;
+        margin: 7px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .slider__wrapper {
+        max-width: 60vw;
+        max-height: 70vh;
+    }
+
+    .slide__item {
+        width: 60vw;
+    }
+
+    .nav {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .nav__item {
+        height: 25px;
+        width: 25px;
+        margin: 3px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 319px) {
+    .slider__wrapper {
+        max-width: 60vw;
+        max-height: 100vh;
+    }
+
+    .slide__item {
+        max-width: 60vw;
+        max-height: 100vh;
+    }
+
+    .nav {
+        margin-top: 5%;
+        margin-left: -2%;
+    }
+
+    .nav__item {
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+        border-radius: 50%;
+        border: 2px solid rgb(33, 15, 99);
+    }
+}
